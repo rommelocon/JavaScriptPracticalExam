@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background-image: url(assets/background.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+img {
+    position: absolute;
+}
+
+.person {
+    transform: translate(700px, 0px);
+}
+
+.headline1 {
+    transform: translate(150px, -100px);
+}
+
+.headline2 {
+    transform: translate(150px, -300px)
+}
+
+.subheadline {
+    transform: translate(280px, -50px);
+}
+
+.learnmore {
+    width: 400px;
+    transform: translate(680px, 600px);
+}
+
+.logo {
+    width: 350px;
+    height: auto;
+    transform: translate(1150px, 50px);
+}
+
+.replay {
+    transform: translate(778px, 700px);
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.fade.show {    
+    opacity: 1;
+    transition: opacity 3s;
+}
+
+.slide-in {
+    transform: translate(150px, -150px);
+    transition: transform 2s;
+}
+
+.slide-out {
+    transform: translate(-100%, -150px);
+    transition: transform 2s;
+}
+
+.slideRightIn {
+    transform: translate(150px, -300px);
+    transition: transform 2s;
+    animation-direction: reverse;
+}
+
+.slideRightOut {
+    transform: translate(2000px, -300px);
+}
+
+.slideLogoIn {
+    transform: translate(1150px, 50px);
+    transition: transform 2s;
+    animation-direction: reverse;
+}
+
+.slideLogoOut {
+    transform: translate(2000px, 50px);
+}
